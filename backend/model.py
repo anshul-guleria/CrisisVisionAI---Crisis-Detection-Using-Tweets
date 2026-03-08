@@ -33,9 +33,6 @@ image_transform = transforms.Compose([
     transforms.ToTensor()
 ])
 
-# =============================
-# MULTIMODAL MODEL
-# =============================
 class MultiModalModel(nn.Module):
     def __init__(self, num_classes):
         super(MultiModalModel, self).__init__()
